@@ -1,146 +1,74 @@
 # 📊 Classic Models Sales Analysis Dashboard
 
-<p align="center">
+An interactive Business Intelligence dashboard built using **MySQL**, **Power BI**, **Power Query**, and **DAX** to analyze sales performance, profitability, customer behavior, and business trends from the Classic Models dataset.
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![DAX](https://img.shields.io/badge/DAX-0B5394?style=for-the-badge)
-![Power Query](https://img.shields.io/badge/Power_Query-217346?style=for-the-badge)
-![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-
-</p>
-
-<p align="center">
-
-An interactive Sales Analysis Dashboard built using <b>MySQL, Power BI, Power Query, and DAX</b>.
-
-</p>
-
-<p align="center">
-
-<a href="https://www.linkedin.com/in/momenhassib/" target="_blank">
-<img src="https://img.shields.io/badge/LinkedIn-Momen%20Ahmed%20Hassib-blue?style=for-the-badge&logo=linkedin">
-</a>
-
-</p>
-
----
-
-# 📑 Table of Contents
-
-- [Project Overview](#-project-overview)
-- [Dashboard Preview](#-dashboard-preview)
-- [Key KPIs](#-key-kpis)
-- [Dashboard Features](#-dashboard-features)
-- [Tech Stack](#-tools--technologies)
-- [Dataset](#-dataset)
-- [DAX Measures](#-dax-measures-created)
-- [Business Insights](#-business-insights)
-- [Repository Files](#-repository-files)
-- [Author](#-author)
-
----
-
-# 🚀 Project Overview
-
-This project analyzes sales data from the **Classic Models** database using an end-to-end Business Intelligence workflow.
-
-The project includes:
-
-- Extracting data using MySQL
-- Data Cleaning with Power Query
-- Data Modeling
-- DAX Measures
-- Interactive Dashboard Development
-- Business Performance Analysis
-
-The dashboard provides decision-makers with actionable insights into sales, profitability, customer behavior, product performance, and business growth.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Momen%20Ahmed%20Hassib-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/momenhassib/)
 
 ---
 
 # 📸 Dashboard Preview
 
-## 📈 Sales Overview
-
-![Dashboard Overview](images/dashboard-overview.png)
+<img src="Sales-Overview.png" width="100%">
 
 ---
 
-## 🌳 Decomposition Tree Analysis
+# 🚀 Project Overview
 
-![Decomposition Tree](images/decomposition-tree.png)
+This project demonstrates an end-to-end Business Intelligence workflow using the **Classic Models** sales database.
 
----
+The project includes:
 
-# 📊 Key KPIs
+- Extracting and querying sales data using **MySQL**
+- Cleaning and transforming data using **Power Query**
+- Building a data model in **Power BI**
+- Creating dynamic business calculations using **DAX**
+- Designing an interactive dashboard to support business decision-making
 
-| KPI | Description |
-|------|-------------|
-| 💰 Total Sales | Overall Sales Revenue |
-| 💵 Net Profit | Total Profit Generated |
-| 📦 Total Orders | Number of Orders |
-| 🛒 Average Order Value | Average Revenue per Order |
-| 📈 Sales YTD | Year-to-Date Sales |
-| 📊 Sales MoM % | Month-over-Month Growth |
+The dashboard enables users to monitor sales performance, evaluate profitability, analyze customer behavior, identify top-performing product lines, and gain actionable business insights through interactive visualizations.
 
 ---
 
-# ✨ Dashboard Features
-
-✅ Interactive Date Filters
-
-✅ Product Filters
-
-✅ Profit Analysis
-
-✅ Sales Trend Analysis
-
-✅ Product Line Performance
-
-✅ Customer Analysis
-
-✅ Office Country Analysis
-
-✅ Scatter Plot Analysis
-
-✅ Decomposition Tree
-
-✅ Dynamic DAX Measures
-
-✅ Responsive Dashboard Layout
-
----
-
-# 🛠 Tools & Technologies
+# 🛠️ Tools & Technologies
 
 | Tool | Purpose |
 |------|---------|
 | MySQL | Data Extraction & Querying |
 | Power Query | Data Cleaning & Transformation |
 | Power BI | Dashboard Development |
-| DAX | Measures & Business Calculations |
-| Excel | Source Dataset |
+| DAX | Business Calculations & Measures |
+| Microsoft Excel | Source Dataset |
 
 ---
 
-# 📂 Dataset
+# 📊 Dashboard Features
 
-Dataset Used:
-
-**Classic Models Sales Dataset**
-
-Main Tables include:
-
-- Customers
-- Orders
-- Products
-- Product Lines
-- Offices
-- Sales Data
+- 📅 Interactive Date Filtering
+- 📦 Product Filtering
+- 💰 Sales & Net Profit Analysis
+- 📈 Sales Trend Analysis
+- 🌍 Country Performance Analysis
+- 👥 Customer Analysis
+- 🚚 Product Line Performance
+- 🌳 Decomposition Tree Analysis
+- 📉 Cost vs Net Profit Analysis
+- ⚡ Dynamic DAX Measures
 
 ---
 
-# 📐 DAX Measures Created
+# 📈 Key Performance Indicators (KPIs)
+
+- 💰 Total Sales
+- 💵 Net Profit
+- 📦 Total Orders
+- 🛒 Average Order Value
+- 📈 Sales Year-to-Date (YTD)
+- 📊 Month-over-Month Sales Growth (MoM%)
+
+---
+
+# 📐 DAX Measures
+
+Custom DAX measures created in this project include:
 
 - Net Profit
 - Average Sales Value Per Order
@@ -151,26 +79,62 @@ Main Tables include:
 
 ---
 
-# 💡 Business Insights
+# 📷 Dashboard Pages
 
-This dashboard helps identify:
+## Executive Sales Dashboard
 
-- 📈 Sales Trends
-- 🏆 Best Performing Product Lines
-- 🌍 Country Performance
-- 👥 Customer Purchasing Behavior
-- 💰 Profit Distribution
-- 📊 Revenue Growth
-- 📦 Order Performance
+<img src="Sales-Overview.png" width="100%">
 
 ---
 
-# 📁 Repository Files
+## Sales Breakdown & Decomposition Tree
 
-| File | Description |
-|------|-------------|
-| Classic-Models-Sales-Dashboard.pbix | Power BI Dashboard |
-| Classic-Models-Sales-Data.xlsx | Source Dataset |
+<img src="Sales-Breakdown.png" width="100%">
+
+---
+
+# 💡 Business Insights
+
+The dashboard helps answer important business questions, including:
+
+- Which product lines generate the highest profit?
+- Which countries contribute the most revenue?
+- How do sales trends change over time?
+- Which customers generate the highest profit?
+- How does cost impact profitability?
+- What are the Year-to-Date and Month-over-Month sales trends?
+
+---
+
+# 📂 Repository Structure
+
+```
+Classic-Models-Sales-Analysis
+│
+├── Sales-Overview.png
+├── Sales-Breakdown.png
+├── Classic-Models-Sales-Dashboard.pbix
+├── Classic-Models-Sales-Data.xlsx
+└── README.md
+```
+
+---
+
+# 🎯 Project Highlights
+
+✔ End-to-End Business Intelligence Project
+
+✔ MySQL Data Extraction
+
+✔ Power Query Data Transformation
+
+✔ Interactive Power BI Dashboard
+
+✔ Advanced DAX Measures
+
+✔ Business Performance Analysis
+
+✔ Executive Sales Reporting
 
 ---
 
@@ -182,17 +146,15 @@ This dashboard helps identify:
 
 📍 Giza, Egypt
 
-### Connect with me
+### 🔗 Connect With Me
 
-💼 LinkedIn
-
-https://www.linkedin.com/in/momenhassib/
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Momen%20Ahmed%20Hassib-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/momenhassib/)
 
 ---
 
 <p align="center">
 
-⭐ If you like this project, consider giving it a Star.
+⭐ If you found this project useful, consider giving it a Star.
 
 Made with ❤️ by <b>Momen Ahmed Hassib</b>
 
